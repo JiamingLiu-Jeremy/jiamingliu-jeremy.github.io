@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Jiaming (Jeremy) Liu 刘家明"
+  name             : "Jiaming Liu 刘家明"
   avatar           : "profile.jpg"
   bio              : "PhD Student at Washington University in St. Louis (WUSTL)"
   location         : "St. Louis, MO"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=KEucBooAAAAJ&hl=en"
-  email            : "jiamingliu.jeremy@gmail.com"
+  email            : 
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
