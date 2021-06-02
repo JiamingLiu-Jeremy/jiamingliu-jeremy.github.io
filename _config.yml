@@ -86,8 +86,8 @@ author:
   location         : "St. Louis, MO"
   employer         :
   pubmed           : 
-  googlescholar    :"https://scholar.google.com/citations?user=KEucBooAAAAJ&hl=en"
-  email            :"jiamingliu.jeremy@gmail.com"
+  googlescholar    : "https://scholar.google.com/citations?user=KEucBooAAAAJ&hl=en"
+  email            : "jiamingliu.jeremy@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :"jiaming-liu-046816149/"
+  linkedin         : "jiaming-liu-046816149/"
   orcid            : "https://orcid.org/0000-0002-1042-4443"
   pinterest        :
   soundcloud       :
