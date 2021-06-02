@@ -14,4 +14,23 @@ I am a second-year Ph.D student in the Computational Imaging Group (CIG) from ES
 
 <h1> News </h1>
 
-I am a second-year Ph.D student in the Computational Imaging Group (CIG) from ESE Department at Washington University in St. Louis (WashU), advised by [Prof. Ulugbek Kamilov](https://engineering.wustl.edu/faculty/Ulugbek-Kamilov.html).
+
+{% include base_path %}
+{% capture written_year %}'None'{% endcapture %}
+{% for post in site.posts %}
+  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+  {% if year != written_year %}
+    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
+    {% capture written_year %}{{ year }}{% endcapture %}
+  {% endif %}
+  {% include archive-single.html %}
+{% endfor %}
+
+<div style="display: none;">
+  <h6>Page views:</h6>
+  <a href="https://www.hitwebcounter.com" target="_blank">
+  <img src="https://hitwebcounter.com/counter/counter.php?page=7680519&style=0007&nbdigits=5&type=page&initCount=0" title="Total Website Hits" Alt="Web Hits" border="0" /></a>
+  <h6>Unique visitors</h6>
+  <a href="https://www.hitwebcounter.com" target="_blank">
+  <img src="https://hitwebcounter.com/counter/counter.php?page=7680520&style=0007&nbdigits=5&type=ip&initCount=0" title="Total Website Hits" Alt="Web Hits" border="0" /></a>
+</div>
