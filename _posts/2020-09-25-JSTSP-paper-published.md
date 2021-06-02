@@ -1,5 +1,5 @@
 ---
-title: 'JSTSP Paper Published'
+title: 'Paper Published'
 date: 2020-09-25
 ---
 
