@@ -86,7 +86,7 @@ author:
   location         : "St. Louis, MO"
   employer         :
   pubmed           : 
-  googlescholar    :&googlescholar "https://scholar.google.com/citations?user=KEucBooAAAAJ&hl=en"
+  googlescholar    :"https://scholar.google.com/citations?user=KEucBooAAAAJ&hl=en"
   email            :"jiamingliu.jeremy@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
