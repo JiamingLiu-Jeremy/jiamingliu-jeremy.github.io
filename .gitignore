@@ -1,2 +1,4 @@
 _site/
 
+.DS_Store
+_data/.DS_Store
