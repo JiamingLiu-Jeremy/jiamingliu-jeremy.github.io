@@ -10,7 +10,7 @@ author_profile: true
 <style>
 div.title,div.ftheader,span.venue,span.highlight{font-weight:600}
 h4,div.title,{font-size:120%}
-img.img_responsive{width:auto;height:180px;display:block}
+img.img_responsive{width:100%;height:100%;display:block;object-fit:contain}
 img.img_thumbnail{width:auto;height:180px;display:block}
 div.ftheader a:link,
 div.ftheader a:visited,
@@ -104,10 +104,56 @@ div.recruit{display:none}
 }
 
 </style>
+
+<h2 id="{{ year | slugify }}" class="archive__subtitle">2023</h2>
+
+  <div>&nbsp;</div>
+  <div class="publication">
+    <div class="img"><img class="img_responsive" src="/images/pmc.png"></div>
+    <div class="text">
+      <div class="title"><strong>Provable Probabilistic Imaging using Score-Based Generative Priors</strong></div>
+      <div class="authors">
+        <span class="author me">Yu Sun</span>,
+        <span class="author"><a href="https://zihuiwu.github.io/">Zihui Wu</a></span>,
+        <span class="author"><a href="https://yifanc96.github.io/">Yifan Chen</span>,
+        <span class="author"><a href="https://www.berthyfeng.com/">Berthy T. Feng</a></span>,
+        <span class="author"><a href="https://computationalcameras.org/">Katie L. Bouman</a></span>
+      </div>
+      <div>
+        <a href="https://arxiv.org/abs/2310.10835"><button class="arxiv">arXiv</button></a>
+      </div>
+    </div>
+  </div>
+  <p></p>
+  <p></p>
+
+  <div>&nbsp;</div>
+  <div class="publication">
+    <div class="img"><img class="img_responsive" src="/images/tackle.png"></div>
+    <div class="text">
+      <div class="title"><strong>Learning Task-Specific Strategies for Accelerated MRI</strong></div>
+      <div class="authors">
+        <span class="author"><a href="https://zihuiwu.github.io/">Zihui Wu</a></span>,
+        <span class="author me">Yu Sun</span>,
+        <span class="author"><a href="https://tianweiy.github.io/">Tianwei Yin</a></span>,
+        <span class="author"><a href="https://www.martinos.org/investigator/robert-frost/">Robert Frost</a></span>,
+        <span class="author"><a href="https://https://scholar.google.com/citations?user=SG5mbpMAAAAJ&hl=en">Andre van der Kouwe</a></span>,
+        <span class="author"><a href="http://www.mit.edu/~adalca/">Adrian V. Dalca</a></span>,
+        <span class="author"><a href="https://computationalcameras.org/">Katie L. Bouman</a></span>
+      </div>
+      <div>
+        <a href="https://arxiv.org/abs/2304.12507"><button class="arxiv">arXiv</button></a>
+      </div>
+    </div>
+  </div>
+  <p></p>
+  <p></p>
+
+
 <h2 id="{{ year | slugify }}" class="archive__subtitle">2022</h2>
   <div>&nbsp;</div>
   <div class="publication">
-    <div class="img"><img class="img_responsive" src="/images/ICCV23.jpg"></div>
+    <div class="img"><img class="img_responsive" src="/images/zeroshot.png"></div>
     <div class="text">
       <div class="title"><strong>Recovery of Continuous 3D Refractive Index Maps from Discrete Intensity-Only Measurements using Neural Fields</strong></div>
       <div class="authors">
@@ -128,8 +174,361 @@ div.recruit{display:none}
   <p></p>
   <p></p>
 
+  <div>&nbsp;</div>
   <div class="publication">
-    <div class="img"><img class="img_responsive" src="/images/NeurIPS19.png"></div>
+    <div class="img"><img class="img_responsive" src="/images/cure.jpeg"></div>
+    <div class="text">
+      <div class="title"><strong>CURE: Learning Cross-Video Neural Representations for High-Quality Frame Interpolation</strong></div>
+      <div class="authors">
+        <span class="author"><a href="http://www.wshangguan.com/">Wentao Shangguan*</a></span>,
+        <span class="author me">Yu Sun*</span>,
+        <span class="author"><a href="https://scholar.google.com/citations?user=Ib20Ge0AAAAJ&hl=en">Weijie Gan</a></span>,
+        <span class="author"><a href="https://cigroup.wustl.edu/">U. S. Kamilov</a></span>
+      </div>
+      <div>
+        <a href="s"><button class="venue">ECCV</button></a>
+        <a href="https://www.cse.wustl.edu/~kamilov/projects/2022/cure/"><button class="project">Project Webpage</button></a>
+        <a href="https://github.com/wustl-cig/CURE"><button class="code">Code</button></a>
+      </div>
+    </div>
+  </div>
+  <p></p>
+  <p></p>
+
+
+<h2 id="{{ year | slugify }}" class="archive__subtitle">2021</h2>
+  <div>&nbsp;</div>
+  <div class="publication">
+    <div class="img"><img class="img_responsive" src="/images/modir.png"></div>
+    <div class="text">
+      <div class="title"><strong>Deformation-Compensated Learning for Image Reconstruction without Ground Truth</strong></div>
+      <div class="authors">
+        <span class="author"><a href="https://scholar.google.com/citations?user=Ib20Ge0AAAAJ&hl=en">Weijie Gan</a></span>,
+        <span class="author me">Yu Sun</span>,
+        <span class="author"><a href="https://scholar.google.com/citations?user=PU44ObcAAAAJ&hl=en">Cihat Eldeniz</a></span>,
+        <span class="author"><a href="https://scholar.google.com/citations?user=KEucBooAAAAJ&hl=en">Jiaming Liu</a></span>,
+        <span class="author">Hongyu An</span>,
+        <span class="author"><a href="https://cigroup.wustl.edu/">U. S. Kamilov</a></span>
+      </div>
+      <div>
+        <a href="https://ieeexplore.ieee.org/document/9743932"><button class="venue">IEEE TMI</button></a>
+        <a href="https://arxiv.org/abs/2107.05533"><button class="arxiv">arXiv</button></a>
+        <a href="https://wustl-cig.github.io/decolearnwww/"><button class="project">Project Webpage</button></a>
+        <a href="https://github.com/wustl-cig/DeCoLearn"><button class="code">Code</button></a>
+      </div>
+    </div>
+  </div>
+  <p></p>
+  <p></p>
+
+  <div>&nbsp;</div>
+  <div class="publication">
+    <div class="img"><img class="img_responsive" src="/images/coil.png"></div>
+    <div class="text">
+      <div class="title"><strong>CoIL: Coordinate-based Internal Learning for Imaging Inverse Problems</strong></div>
+      <div class="authors">
+        <span class="author me">Yu Sun</span>,
+        <span class="author"><a href="https://scholar.google.com/citations?user=KEucBooAAAAJ&hl=en">Jiaming Liu</a></span>,
+        <span class="author">Mingyang Xie</span>,
+        <span class="author"><a href="http://brendt.wohlberg.net/">Brendt Wohlberg</a></span>,
+        <span class="author"><a href="https://cigroup.wustl.edu/">U. S. Kamilov</a></span>
+      </div>
+      <div>
+        <a href="https://ieeexplore.ieee.org/document/9606601"><button class="venue">IEEE TCI</button></a>
+        <a href="https://arxiv.org/abs/2102.05181"><button class="arxiv">arXiv</button></a>
+        <a href="https://www.youtube.com/watch?v=7LXagKec31U&feature=youtu.be"><button class="project">Video</button></a>
+        <a href="https://github.com/wustl-cig/Cooridnate-based-Internal-Learning"><button class="code">Code</button></a>
+      </div>
+    </div>
+  </div>
+  <p></p>
+  <p></p>
+
+  <div class="publication">
+    <div class="img"><img class="img_responsive" src="/images/SGD-net.png"></div>
+    <div class="text">
+      <div class="title"><strong>SGD-Net: Efficient Model-Based Deep Learning with Theoretical Guarantees</strong></div>
+      <div class="authors">
+        <span class="author"><a href="https://scholar.google.com/citations?user=KEucBooAAAAJ&hl=en">Jiaming Liu</a></span>,
+        <span class="author me">Yu Sun</span>,
+        <span class="author">Weijie Gan</span>,
+        <span class="author"><a href="https://scholar.google.com/citations?user=jdNOtqwAAAAJ&hl=en">Xiaojian Xu</a></span>,
+        <span class="author"><a href="http://brendt.wohlberg.net/">Brendt Wohlberg</a></span>,
+        <span class="author"><a href="https://cigroup.wustl.edu/">U. S. Kamilov</a></span>
+      </div>
+      <div>
+        <a href="https://ieeexplore.ieee.org/abstract/document/9444876"><button class="venue">IEEE TCI</button></a>
+        <a href="https://arxiv.org/abs/2101.09379"><button class="venue">ICASSP 2021</button></a>
+        <a href="https://arxiv.org/abs/2101.09379"><button class="arxiv">arXiv</button></a>
+      </div>
+    </div>
+  </div>
+  <p></p>
+  <p></p>
+
+
+  <div class="publication">
+    <div class="img"><img class="img_responsive" src="/images/Xie-etal20.png"></div>
+    <div class="text">
+      <div class="title"><strong>Joint Reconstruction and Calibration using Regularization by Denoising</strong></div>
+      <div class="authors">
+        <span class="author">Mingyang Xie</span>,
+        <span class="author me">Yu Sun</span>,
+        <span class="author"><a href="https://scholar.google.com/citations?user=KEucBooAAAAJ&hl=en">Jiaming Liu</a></span>,
+        <span class="author"><a href="http://brendt.wohlberg.net/">Brendt Wohlberg</a></span>,
+        <span class="author"><a href="https://cigroup.wustl.edu/">U. S. Kamilov</a></span>
+      </div>
+      <div>
+        <a href="https://openaccess.thecvf.com/content/ICCV2021W/LCI/papers/Xie_Joint_Reconstruction_and_Calibration_Using_Regularization_by_Denoising_With_Application_ICCVW_2021_paper.pdf"><button class="venue">ICCVW 2021</button></a>
+        <a href="https://arxiv.org/abs/2011.13391"><button class="arxiv">arXiv</button></a>
+      </div>
+    </div>
+  </div>
+  <p></p>
+  <p></p>
+
+
+  <div class="publication">
+    <div class="img"><img class="img_responsive" src="/images/asyncRed.png"></div>
+    <div class="text">
+      <div class="title"><strong>Async-RED: A Provably Convergent Asynchronous Block Parallel Stochastic Method using Deep Denoising Priors</strong></div>
+      <div class="authors">
+        <span class="author me">Yu Sun</span>,
+        <span class="author"><a href="https://scholar.google.com/citations?user=KEucBooAAAAJ&hl=en">Jiaming Liu</a></span>,
+        <span class="author"><a href="http://brendt.wohlberg.net/">Brendt Wohlberg</a></span>,
+        <span class="author"><a href="https://cigroup.wustl.edu/">U. S. Kamilov</a></span>
+      </div>
+      <div>
+        <a href="https://openreview.net/forum?id=9EsrXMzlFQY"><button class="venue">ICLR</button></a>
+        <a href="https://github.com/wustl-cig/2021-ICLR-Async-RED"><button class="code">Code</button></a>
+        <div>
+        <span class="highlight">Spotlight: 114/2997 = 4%</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p></p>
+  <p></p>
+
+<h2 id="{{ year | slugify }}" class="archive__subtitle">2020</h2>
+  <div>&nbsp;</div>
+  <div class="publication">
+    <div class="img"><img class="img_responsive" src="/images/Sun-etal20.png"></div>
+    <div class="text">
+      <div class="title"><strong>Scalable Plug-and-Play ADMM with Convergence Guarantees</strong></div>
+      <div class="authors">
+        <span class="author me">Yu Sun*</span>,
+        <span class="author"><a href="https://zihuiwu.github.io/">Zihui Wu*</a></span>,
+        <span class="author"><a href="https://xuxiaojian.github.io/">Xiaojian Xu*</a></span>,
+        <span class="author"><a href="http://brendt.wohlberg.net/">Brendt Wohlberg</a></span>,
+        <span class="author"><a href="https://cigroup.wustl.edu/">U. S. Kamilov</a></span>
+      </div>
+      <div>
+        <a href="https://ieeexplore.ieee.org/abstract/document/9473005"><button class="venue">IEEE TCI</button></a>
+        <a href="https://arxiv.org/pdf/2006.03224.pdf"><button class="arxiv">arXiv</button></a>
+      </div>
+    </div>
+  </div>
+  <p></p>
+  <p></p>
+
+
+  <div class="publication">
+    <div class="img"><img class="img_responsive" src="/images/mssn.png"></div>
+    <div class="text">
+      <div class="title"><strong>A New Recurrent Plug-and-Play Prior Based on the Multiple Self-Similarity Network</strong></div>
+      <div class="authors">
+        <span class="author">Guangxiao Song</span>,
+        <span class="author me">Yu Sun</span>,
+        <span class="author"><a href="https://scholar.google.com/citations?user=KEucBooAAAAJ&hl=en">Jiaming Liu</a></span>,,
+        <span class="author">Zhijie Wang</span>,
+        <span class="author"><a href="https://cigroup.wustl.edu/">U. S. Kamilov</a></span>
+      </div>
+      <div>
+        <a href="https://ieeexplore.ieee.org/document/9018286"><button class="venue">IEEE SPL</button></a>
+        <a href="https://arxiv.org/abs/1907.11793"><button class="arxiv">arXiv</button></a>
+        <a href="https://github.com/wustl-cig/PnP-MSSN"><button class="code">Code</button></a>
+      </div>
+    </div>
+  </div>
+  <p></p>
+  <p></p>
+
+
+  <div class="publication">
+    <div class="img"><img class="img_responsive" src="/images/Xu-etal20.png"></div>
+    <div class="text">
+      <div class="title"><strong>Provable Convergence of Plug-and-Play Priors With MMSE Denoisers</strong></div>
+      <div class="authors">
+        <span class="author"><a href="https://scholar.google.com/citations?user=jdNOtqwAAAAJ&hl=en">Xiaojian Xu</a></span>,
+        <span class="author me">Yu Sun</span>,
+        <span class="author"><a href="https://scholar.google.com/citations?user=KEucBooAAAAJ&hl=en">Jiaming Liu</a></span>,
+        <span class="author"><a href="http://brendt.wohlberg.net/">Brendt Wohlberg</a></span>,
+        <span class="author"><a href="https://cigroup.wustl.edu/">U. S. Kamilov</a></span>
+      </div>
+      <div>
+        <a href="https://ieeexplore.ieee.org/abstract/document/9130860"><button class="venue">IEEE SPL</button></a>
+        <a href="https://arxiv.org/abs/2005.07685"><button class="arxiv">arXiv</button></a>
+      </div>
+    </div>
+  </div>
+  <p></p>
+  <p></p>
+
+  <div class="publication">
+    <div class="img"><img class="img_responsive" src="/images/Wu-etal20.png"></div>
+    <div class="text">
+      <div class="title"><strong>SIMBA: Scalable Inversion in Optical Tomography using Deep Denoising Priors</strong></div>
+      <div class="authors">
+        <span class="author"><a href="https://zihuiwu.github.io/">Zihui Wu</a></span>,
+        <span class="author me">Yu Sun</span>,
+        <span class="author"><a href="https://scholar.google.com/citations?user=sADga6IAAAAJ&hl=en">Alex Matlock</a></span>,
+        <span class="author"><a href="https://scholar.google.com/citations?user=KEucBooAAAAJ&hl=en">Jiaming Liu</a></span>,
+        <span class="author"><a href="http://sites.bu.edu/tianlab/people/lei-tian/">Lei Tian</a></span>,
+        <span class="author"><a href="https://cigroup.wustl.edu/">U. S. Kamilov</a></span>
+      </div>
+      <div>
+        <a href="https://signalprocessingsociety.org/publications-resources/ieee-journal-selected-topics-signal-processing"><button class="venue">IEEE JSTSP</button></a>
+        <a href="https://arxiv.org/abs/1911.13241"><button class="arxiv">arXiv</button></a>
+      </div>
+    </div>
+  </div>
+  <p></p>
+  <p></p>
+
+
+  <div class="publication">
+    <div class="img"><img class="img_responsive" src="/images/rare.png"></div>
+    <div class="text">
+      <div class="title"><strong>RARE: Image reconstruction using deep priors learned without groundtruth</strong></div>
+      <div class="authors">
+        <span class="author"><a href="https://scholar.google.com/citations?user=KEucBooAAAAJ&hl=en">Jiaming Liu</a></span>,
+        <span class="author me">Yu Sun</span>,
+        <span class="author">Cihat Eldeniz</span>,
+        <span class="author">Weijie Gan</span>,
+        <span class="author">Hongyu An</span>,
+        <span class="author"><a href="https://cigroup.wustl.edu/">U. S. Kamilov</a></span>
+      </div>
+      <div>
+        <a href="https://ieeexplore.ieee.org/abstract/document/9103213"><button class="venue">IEEE JSTSP</button></a>
+        <a href="https://arxiv.org/pdf/1912.07087.pdf"><button class="arxiv">arXiv</button></a>
+      </div>
+    </div>
+  </div>
+  <p></p>
+  <p></p>
+
+
+  <div class="publication">
+    <div class="img"><img class="img_responsive" src="/images/mrm.png"></div>
+    <div class="text">
+      <div class="title"><strong>Deep learning using a biophysical model for Robust and Accelerated Reconstruction (RoAR) of quantitative and artifact-free R2* images</strong></div>
+      <div class="authors">
+        <span class="author">Max Torop</span>,
+        <span class="author">Satya Kothapalli</span>,
+        <span class="author me">Yu Sun</span>,
+        <span class="author"><a href="https://scholar.google.com/citations?user=KEucBooAAAAJ&hl=en">Jiaming Liu</a></span>,
+        <span class="author">Sayan Kahali</span>,
+        <span class="author">Dmitriy A Yablonskiy</span>,
+        <span class="author"><a href="https://cigroup.wustl.edu/">U. S. Kamilov</a></span>
+      </div>
+      <div>
+        <a href="https://onlinelibrary.wiley.com/doi/10.1002/mrm.28344"><button class="venue">MRM</button></a>
+        <a href="https://arxiv.org/pdf/1912.07087.pdf"><button class="arxiv">arXiv</button></a>
+        <a href="https://github.com/wustl-cig/RoAR"><button class="code">Code</button></a>
+      </div>
+    </div>
+  </div>
+  <p></p>
+  <p></p>
+
+
+<h2 id="{{ year | slugify }}" class="archive__subtitle">2019</h2>
+  <div>&nbsp;</div>
+  <div class="publication">
+    <div class="img"><img class="img_responsive" src="/images/Wu-etal19.png"></div>
+    <div class="text">
+      <div class="title"><strong>Online Regularization by Denoising with Applications to Phase Retrieval</strong></div>
+      <div class="authors">
+        <span class="author"><a href="https://zihuiwu.github.io/">Zihui Wu</a></span>,
+        <span class="author me">Yu Sun</span>,
+        <span class="author"><a href="https://scholar.google.com/citations?user=KEucBooAAAAJ&hl=en">Jiaming Liu</a></span>,
+        <span class="author"><a href="https://cigroup.wustl.edu/">U. S. Kamilov</a></span>
+      </div>
+      <div>
+        <a href="https://sites.google.com/view/iccv-lci2019/home"><button class="venue">ICCVW 2019</button></a>
+        <a href="https://arxiv.org/abs/1909.02040"><button class="arxiv">arXiv</button></a>
+      </div>
+    </div>
+  </div>
+  <p></p>
+  <p></p>
+
+
+  <div class="publication">
+    <div class="img"><img class="img_responsive" src="/images/dip-tv.png"></div>
+    <div class="text">
+      <div class="title"><strong>Image Restoration Using Total Variation Regularized Deep Image Prior</strong></div>
+      <div class="authors">
+        <span class="author"><a href="https://scholar.google.com/citations?user=KEucBooAAAAJ&hl=en">Jiaming Liu</a></span>,
+        <span class="author me">Yu Sun</span>,
+        <span class="author"><a href="https://scholar.google.com/citations?user=jdNOtqwAAAAJ&hl=en">Xiaojian Xu</a></span>,
+        <span class="author"><a href="https://cigroup.wustl.edu/">U. S. Kamilov</a></span>
+      </div>
+      <div>
+        <a href="https://ieeexplore.ieee.org/abstract/document/8682856"><button class="venue">ICASSP 2019</button></a>
+        <a href="https://arxiv.org/abs/1810.12864"><button class="arxiv">arXiv</button></a>
+      </div>
+    </div>
+  </div>
+  <p></p>
+  <p></p>
+
+
+  <div class="publication">
+    <div class="img"><img class="img_responsive" src="/images/Ptychography.png"></div>
+    <div class="text">
+      <div class="title"><strong>Regularized Fourier ptychography using an online plug-and-play algorithm</strong></div>
+      <div class="authors">
+        <span class="author me">Yu Sun</span>,
+        <span class="author"><a href="http://brendt.wohlberg.net/">Brendt Wohlberg</a></span>,
+        <span class="author"><a href="https://cigroup.wustl.edu/">U. S. Kamilov</a></span>
+      </div>
+      <div>
+        <a href="https://ieeexplore.ieee.org/abstract/document/8683057"><button class="venue">ICASSP 2019</button></a>
+        <a href="https://arxiv.org/pdf/1811.00120.pdf"><button class="arxiv">arXiv</button></a>
+        <div>
+        <span class="highlight">Oral Presentation</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p></p>
+  <p></p>
+
+
+  <div class="publication">
+    <div class="img"><img class="img_responsive" src="/images/PnP.png"></div>
+    <div class="text">
+      <div class="title"><strong>An online Plug-and-play algorithm for regularized image reconstruction</strong></div>
+      <div class="authors">
+        <span class="author me">Yu Sun</span>,
+        <span class="author"><a href="http://brendt.wohlberg.net/">Brendt Wohlberg</a></span>,
+        <span class="author"><a href="https://cigroup.wustl.edu/">U. S. Kamilov</a></span>
+      </div>
+      <div>
+        <a href="https://ieeexplore.ieee.org/abstract/document/8616843"><button class="venue">IEEE TCI</button></a>
+        <a href="https://arxiv.org/abs/1811.03659"><button class="venue">BASP</button></a>
+        <a href="https://arxiv.org/abs/1809.04693"><button class="arxiv">arXiv</button></a>
+      </div>
+    </div>
+  </div>
+  <p></p>
+  <p></p>
+
+
+  <div class="publication">
+    <div class="img"><img class="img_responsive" src="/images/NeurIPS.png"></div>
     <div class="text">
       <div class="title"><strong>Block Coordinate Regularization by Denoising</strong></div>
       <div class="authors">
@@ -149,3 +548,24 @@ div.recruit{display:none}
   </div>
   <p></p>
   <p></p>
+
+
+<h2 id="{{ year | slugify }}" class="archive__subtitle">2018</h2>
+  <div>&nbsp;</div>
+  <div class="publication">
+    <div class="img"><img class="img_responsive" src="/images/Sun-etal18.png"></div>
+    <div class="text">
+      <div class="title"><strong>Efficient and accurate inversion of multiple scattering with deep learning</strong></div>
+      <div class="authors">
+        <span class="author me">Yu Sun</span>,
+        <span class="author"><a href="https://www.cse.wustl.edu/~zhihao.xia/">Zhihao Xia</a></span>,
+        <span class="author"><a href="https://cigroup.wustl.edu/">U. S. Kamilov</a></span>
+      </div>
+      <div>
+        <a href="https://www.osapublishing.org/oe/fulltext.cfm?uri=oe-26-11-14678&id=389936"><button class="venue">Optics Express</button></a>
+        <a href="https://arxiv.org/abs/1806.08015"><button class="venue">ITWIST</button></a>
+        <a href="https://arxiv.org/abs/1909.02040"><button class="arxiv">arXiv</button></a>
+        <a href="https://github.com/wustl-cig/ScatteringDecoder"><button class="code">Code</button></a>
+      </div>
+    </div>
+  </div>
