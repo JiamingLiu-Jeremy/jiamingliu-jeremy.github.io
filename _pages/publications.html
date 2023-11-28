@@ -103,19 +103,32 @@ div.recruit{display:none}
   border-radius: 5px;
 }
 
+.row {
+    display: flex;
+}
+
+.video-container {
+        width: 33.33%;
+}
+
+.title-container {
+        width: 66.67%;
+        /* Add styling for your title here */
+}
+
 </style>
 
 <h2 id="{{ year | slugify }}" class="archive__subtitle">2023</h2>
 
   <div>&nbsp;</div>
-  <div class="publication">
+  <div class="publication" style="display: flex;">
     <!-- <div class="img"><img class="img_responsive" src="/images/flair.png"></div> -->
-    <div class="col-sm-3">
-      <video width="33%" playsinline="" autoplay="" loop="" preload="" muted="">
+    <div class="col-sm-3" style="flex: 1;">
+      <video width="100%" playsinline="" autoplay="" loop="" preload="" muted="">
           <source src="/images/thumbnail.mp4" type="video/mp4">
       </video>
     </div>
-    <div class="text">
+    <div class="text" style="flex: 2;">
       <div class="title"><strong>FLAIR: A Conditional Diffusion Framework with Applications to Face Video Restoration</strong></div>
       <div class="authors">
         <span class="author"><a href="https://zihaozou.github.io/">Zihao Zou*</a></span>,
